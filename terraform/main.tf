@@ -1,5 +1,5 @@
-#ami-abc1ebbd is https://aws.amazon.com/amazon-linux-ami/ PV EBS backed 64 bit
+#https://aws.amazon.com/amazon-linux-ami/ HVM EBS backed 64 bit
 resource "aws_instance" "example" {
-  ami = "ami-abc1ebbd"
+  ami = "ami-a4c7edb2"
   instance_type = "t2.micro"
 }

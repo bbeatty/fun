@@ -1,1 +1,4 @@
 terraform/init.tf
+terraform/tfKeyPair.pem
+*tfstate*
+terraform/.terraform
